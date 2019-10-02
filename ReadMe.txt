@@ -1,76 +1,7 @@
 ================================================================================
-    MICROSOFT »ù´¡Àà¿â£º Guess_Number ÏîÄ¿¸ÅÊö
+    çŒœæ•°å­—æ¸¸æˆ
 ===============================================================================
 
-Ó¦ÓÃ³ÌÐòÏòµ¼ÒÑÎªÄú´´½¨ÁË´Ë Guess_Number Ó¦ÓÃ³ÌÐò¡£´ËÓ¦ÓÃ³ÌÐò
-²»½ö½éÉÜÁËÊ¹ÓÃ Microsoft »ù´¡ÀàµÄ»ù±¾ÖªÊ¶£¬
-¶øÇÒÊÇ±àÐ´Ó¦ÓÃ³ÌÐòµÄÆðµã¡£
-
-´ËÎÄ¼þ°üº¬×é³É Guess_Number Ó¦ÓÃ³ÌÐòµÄÃ¿¸öÎÄ¼þµÄÄÚÈÝÕªÒª¡£
-
-Guess_Number.vcproj
-    ÕâÊÇÊ¹ÓÃ¡°Ó¦ÓÃ³ÌÐòÏòµ¼¡±Éú³ÉµÄ VC++ ÏîÄ¿µÄÖ÷ÏîÄ¿ÎÄ¼þ¡£ 
-    Ëü°üº¬ÓÐ¹ØÉú³ÉÎÄ¼þµÄ Visual C++ °æ±¾µÄÐÅÏ¢£¬ÒÔ¼°
-    ÓÐ¹ØÓÃ¡°Ó¦ÓÃ³ÌÐòÏòµ¼¡±ËùÑ¡ÔñµÄÆ½Ì¨¡¢ÅäÖÃºÍ
-    ÏîÄ¿¹¦ÄÜµÄÐÅÏ¢¡£
-
-Guess_Number.h
-    ÕâÊÇÓ¦ÓÃ³ÌÐòµÄÖ÷Í·ÎÄ¼þ¡£  Ëü°üº¬ÆäËû
-    ÏîÄ¿ÌØ¶¨µÄÍ·ÎÄ¼þ£¨°üÀ¨ Resource.h£©£¬²¢ÉùÃ÷
-    CGuess_NumberApp Ó¦ÓÃ³ÌÐòÀà¡£
-
-Guess_Number.cpp
-    ÕâÊÇ°üº¬Ó¦ÓÃ³ÌÐò
-    Àà CGuess_NumberApp µÄÖ÷Ó¦ÓÃ³ÌÐòÔ´ÎÄ¼þ¡£
-
-Guess_Number.rc
-    ÕâÊÇ³ÌÐòÊ¹ÓÃµÄËùÓÐ Microsoft Windows ×ÊÔ´
-    µÄÁÐ±í¡£  Ëü°üº¬´æ´¢ÔÚ RES ×ÓÄ¿Â¼ÖÐ
-    µÄÍ¼±ê¡¢Î»Í¼ºÍ¹â±ê¡£  ¿ÉÖ±½ÓÔÚ Microsoft 
-    Visual C++ ÖÐ±à¼­´ËÎÄ¼þ¡£ ÏîÄ¿×ÊÔ´°üº¬ÔÚ 2052 ÖÐ¡£
-
-res\Guess_Number.ico
-    ÕâÊÇÒ»¸öÍ¼±êÎÄ¼þ£¬ÓÃ×÷Ó¦ÓÃ³ÌÐòµÄÍ¼±ê¡£  ´Ë
-    Í¼±ê°üº¬ÔÚÖ÷×ÊÔ´ÎÄ¼þ Guess_Number.rc ÖÐ¡£
-
-res\Guess_Number.rc2
-    ´ËÎÄ¼þ°üº¬²»ÓÉ Microsoft 
-    Visual C++ ±à¼­µÄ×ÊÔ´¡£ Ó¦½«ËùÓÐ²»ÄÜÓÉ
-    ×ÊÔ´±à¼­Æ÷±à¼­µÄ×ÊÔ´·ÅÔÚ´ËÎÄ¼þÖÐ¡£
-
-/////////////////////////////////////////////////////////////////////////////
-
-Ó¦ÓÃ³ÌÐòÏòµ¼½«´´½¨Ò»¸ö¶Ô»°¿òÀà£º
-Guess_NumberDlg.h¡¢Guess_NumberDlg.cpp - ¶Ô»°¿ò
-    ÕâÐ©ÎÄ¼þ°üº¬ CGuess_NumberDlg Àà¡£  ´ËÀà¶¨Òå
-    Ó¦ÓÃ³ÌÐòÖ÷¶Ô»°¿òµÄÐÐÎª¡£  ´Ë¶Ô»°¿òµÄÄ£°å°üº¬ÔÚ 
-    Guess_Number.rc ÖÐ£¬¶ø´ËÎÄ¼þ¿ÉÒÔÔÚ Microsoft Visual C++ ÖÐ½øÐÐ±à¼­¡£
-/////////////////////////////////////////////////////////////////////////////
-
-ÆäËû±ê×¼ÎÄ¼þ£º
-
-StdAfx.h¡¢StdAfx.cpp
-    ÕâÐ©ÎÄ¼þÓÃÓÚÉú³ÉÃûÎª Guess_Number.pch µÄÔ¤±àÒëÍ·ÎÄ¼þ (PCH)
-    ºÍÃûÎª StdAfx.obj µÄÔ¤±àÒëÀàÐÍÎÄ¼þ¡£
-
-Resource.h
-    ÕâÊÇ±ê×¼Í·ÎÄ¼þ£¬Ëü¶¨ÒåÐÂ×ÊÔ´ ID¡£
-    Microsoft Visual C++ ½«¶ÁÈ¡²¢¸üÐÂ´ËÎÄ¼þ¡£
-
-/////////////////////////////////////////////////////////////////////////////
-
-ÆäËûËµÃ÷£º
-
-Ó¦ÓÃ³ÌÐòÏòµ¼Ê¹ÓÃ¡°TODO:¡± À´Ö¸Ê¾
-Ó¦Ìí¼Ó»ò×Ô¶¨ÒåµÄÔ´´úÂë²¿·Ö¡£
-
-Èç¹ûÓ¦ÓÃ³ÌÐòÔÚ¹²Ïí DLL ÖÐÊ¹ÓÃ MFC£¬ÇÒÓ¦ÓÃ³ÌÐòÊ¹ÓÃµÄÓïÑÔ²»ÊÇ
-²Ù×÷ÏµÍ³µÄµ±Ç°ÓïÑÔ£¬ÔòÐèÒª´Ó Microsoft Visual C++ ¹âÅÌÉÏ 
-Win\System Ä¿Â¼ÏÂ½«ÏàÓ¦µÄ±¾µØ»¯×ÊÔ´ MFC70XXX.DLL 
-¸´ÖÆµ½¼ÆËã»úµÄ system »ò system32 Ä¿Â¼ÏÂ£¬
-²¢½«ÆäÖØÃüÃûÎª MFCLOC.DLL¡£  £¨¡°XXX¡±´ú±í
-ÓïÑÔËõÐ´¡£  ÀýÈç£¬MFC70DEU.DLL °üº¬·­Òë³É
-µÂÓïµÄ×ÊÔ´¡££©  Èç¹û²»ÕâÑù×ö£¬Ó¦ÓÃ³ÌÐòµÄÄ³Ð© UI ÔªËØ
-½«±£ÁôÎª²Ù×÷ÏµÍ³µÄÓïÑÔ¡£
+è¾“å…¥çŒœæ•°èŒƒå›´åŽè¾“å…¥æ‰€çŒœæ•°å­—ï¼Œè®¡ç®—æœºæç¤ºä½ çŒœå¯¹æ•°å­—çš„ä¸ªæ•°åŠæ•°å­—æ•°ä½éƒ½å¯¹çš„ä¸ªæ•°ã€‚
 
 /////////////////////////////////////////////////////////////////////////////
